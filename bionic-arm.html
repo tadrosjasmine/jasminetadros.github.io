@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    </head>
+    <body>
+        <!-- Wrapper -->
+        <div id="wrapper" class="fade-in">
+
+            <!-- Intro -->
+            <header id="header">
+                <a href="index.html" class="logo">Return to Home</a>
+            </header>
+
+            <!-- Nav -->
+            <nav id="nav">
+                <ul class="links">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="active"><a href="bionic-arm.html">Bionic Arm</a></li>
+                </ul>
+                <ul class="icons">
+                    <li><a href="https://www.linkedin.com/in/jasmine-tadros/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+                    <li><a href="https://github.com/tadrosjasmine" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+                </ul>
+            </nav>
+
+            <!-- Main -->
+            <div id="main">
+                <!-- Featured Post -->
+                <article class="post featured">
+                    <header class="major">
+                        <h2><a href="#">Bionic Arm<br /></a></h2>  
+                        <p> I had the opportunity to collaborate with a team of four in a UCLA project design course to create a functional bionic arm. My contributions included designing the storage unit (forearm) for the arm's electrical components using Onshape CAD software and working with a parter to set up the servo motor circuitry. <br><br>
+                            <a href="https://docs.google.com/presentation/d/1ByBaFlTEb14GtLV6aIsfrVRhhJY-DPnSXk4_NeWGpV0/edit?usp=sharing" target="_blank">View our group's presentation here!</a>
+                            <div style="display: flex; align-items: flex-start; gap: 30px;">
+                                <a href="#" class="image fit" style="margin: 0; padding: 0;"><img src="images/bionics.png" style="width: 35vw; vertical-align: top;" alt="" /></a>
+                                <a href="#" class="image fit" style="margin: 0; padding: 0;"><img src="images/grouppic.jpeg" style="width: 31vw; vertical-align: top;" alt="" /></a>
+                            </div>
+                    </header>
+                </article>
+
+                <h3>CAD Design of Forearm</h3>                        
+                        <table>
+                            <tr>
+                              <!-- Image on the left side -->
+                              <td style="padding-right: 10px;">
+                                <p style="text-align: left; padding-left: 20px;">
+                                <a href="" class="image fit"><img src="images/design.jpg" style="width: 35vw;" alt="" /></a>
+                                <a href="" class="image fit"><img src="images/forearm.jpg" style="width: 35vw;" alt="" /></a>
+                              </td>
+                              <!-- Text on the right side -->
+                              <td style="vertical-align: top;">
+                                <p style="text-align: left;">
+                                  <br>The top image illustrates the initial design brainstorming phase (drawn by me on my iPad). I began by sketching the forearm's desired appearance and planning how the electrical components, such as the breadboards, Arduino Uno, and servo motors, would fit onto the arm. This stage also involved recording the measurements of these components to ensure proper integration. <br><br>
+                                  The bottom image displays the forearm's final design in CAD software. I opted for a revised design and repositioned the servo motors to enhance functionality and prevent any potential entanglement of the fishing wire attached to each of the servos. The five cylindrical extrusions at the top of the forearm are designed to neatly organize the fishing wire connected to the servo motors, keeping the setup tidy.
+                                  <br><br>A challenge I encountered was with 3D printing the design, as it was too large to complete in one print. To address this, I cut the design into two parts and printed them separately. Afterward, I used superglue to assemble the two sections, maintaining the forearm’s intended size. This approach proved effective, and all electrical components fit securely within the forearm.
+                                  
+                                </p>
+                              </td>
+                            </tr>
+                          </table>
+
+                    <h3>CIRCUITRY COMPONENTS</h3>                        
+                        <table>
+                            <tr>
+                              <!-- Text on the left side -->
+                              <td style="vertical-align: top;">
+                                    <p style="text-align: left; padding-left: 20px;">
+
+                                    <br><br>I collaborated with a team member on the circuitry for the bionic arm. Our goal was to use flex sensors (sewn into a glove) to detect finger movements and consequently activate servo motors to bend bionic arm fingers. 
+                                    Our design included four flex sensors and four servo motors—one for each finger, with the middle and index fingers controlled together. <br><br>
+                                    We began by testing a single flex sensor and servo motor to ensure proper functionality. Once we successfully integrated one sensor and motor, we gradually scaled up to two, then three, and finally four working sensors and motors.
+                                    <br><br>We encountered challenges with faulty electronics that prevented the circuit from functioning correctly and caused issues with getting all four flex sensors to work simultaneously. We addressed these problems through meticulous troubleshooting, trial and error with the circuitry setup, and research to identify potential issues in both the circuits and the code.
+                                </p>
+                                <!-- Image on the right side -->
+                              <td style="padding-left: 10px;">
+                                <a href="" class="image fit"><img src="images/bionic arm circuitry.jpeg" style="width: 35vw;" alt="" /></a>
+                                <a href="" class="image fit"><img src="images/3 servos.jpeg" style="width: 35vw;" alt="" /></a>
+                              </td>
+                            </tr>
+                          </table>
+            </div> <!-- Close #main -->
+
+        </div> <!-- Close #wrapper -->
+    
+        <!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+    </body>
+</html>
